@@ -1,0 +1,33 @@
+.form {
+  margin-top: calc((3.37rem / 2 + var(--padding)) * -1);
+  width: 100%;
+  display: flex;
+  gap: 8px;
+}
+
+.form input, .form button {
+  height: 3.37rem;
+  padding: var(--padding);
+  border-radius: var(--radius);
+  border: 1px solid var(--gray-700);
+}
+.form input {
+  width: 100%;
+  color: var(--gray-100);
+  background: var(--gray-500);
+}
+
+.form button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  font-size: 0.87rem;
+  font-weight: bold;
+  transition: 0.15s;
+  cursor: pointer;
+}
+.form button:hover {
+  filter: brightness(0.9);
+}

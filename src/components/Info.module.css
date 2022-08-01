@@ -1,0 +1,36 @@
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 3.37rem;
+  padding: 1.1rem 0;
+}
+
+.info div {
+  width: auto;
+  display: flex;
+  gap: 8px;
+}
+
+.created p {
+  color: var(--blue);
+}
+.done p {
+  color: var(--purple);
+}
+
+.info div p {
+  font-size: 0.87rem;
+  font-weight: bold;
+}
+
+.info div span {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  border-radius: 10rem;
+  padding: 2px 8px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.75rem;
+}

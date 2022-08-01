@@ -1,0 +1,7 @@
+.content {
+  max-width: 46rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: var(--padding);
+}
